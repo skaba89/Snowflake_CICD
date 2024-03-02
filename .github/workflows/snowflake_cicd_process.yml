@@ -9,7 +9,7 @@ on :
         - 'dbscripts/**'
 
       # Allows you to run this workflow manually from the Action tab
-   workflow_dispatch:
+    workflow_dispatch:
 
 
 jobs:
