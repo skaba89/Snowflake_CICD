@@ -3,13 +3,13 @@ name: Snowflake_CICD
 #Controls when the action will run.
 on:
   push:
-    branch:
+   branch:
       - main, master
-    paths:
+   paths:
       - 'dbscripts/**'
 
    # Allows you to run this workflow manually from the Action tab
-   workflow_dispatch:
+  workflow_dispatch:
 
 
 jobs:
