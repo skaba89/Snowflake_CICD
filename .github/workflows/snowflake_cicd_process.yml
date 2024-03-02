@@ -3,7 +3,7 @@ name: snowflake_cicd
 #Controls when the action will run.
 on :
    push:
-      branch:
+      branches:
         - main
       paths:
         - 'dbscripts/**'
