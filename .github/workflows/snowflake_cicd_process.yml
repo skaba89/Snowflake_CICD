@@ -1,19 +1,19 @@
-name: Snowflake_CICD
+name: snowflake_cicd
 
 #Controls when the action will run.
 on:
-  push:
-   branch:
-      - main, master
-   paths:
-      - 'dbscripts/**'
+   push:
+     branch:
+        - main
+     paths:
+        - 'dbscripts/**'
 
-   # Allows you to run this workflow manually from the Action tab
-  workflow_dispatch:
+      # Allows you to run this workflow manually from the Action tab
+    workflow_dispatch:
 
 
 jobs:
-  snowflake-cicd:
+   snowflake-cicd:
      runs-on: ubuntu-latest
 
 
